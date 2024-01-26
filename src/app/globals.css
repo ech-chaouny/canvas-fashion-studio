@@ -8,3 +8,10 @@
     font-family: 'DmitryRastvortsev';
     src: local('DmitryRastvortsev'), url('../fonts/DmitryRastvortsev/KyivTypeSansMedium.otf') format('opentype');
 }
+
+.text-gradient {
+    background: linear-gradient(to bottom, white, #484848);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
