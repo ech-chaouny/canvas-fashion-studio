@@ -17,8 +17,7 @@ const Hero = () => {
   const sm = useTransform(scrollYProgress, [0, 1], [0, -100]);
   const md = useTransform(scrollYProgress, [0, 1], [0, -150]);
   const lg = useTransform(scrollYProgress, [0, 1], [0, 150]);
-  const xl = useTransform(scrollYProgress, [0, 1], [0, 150]);
-
+ 
   return (
     <div ref={container} className="h-full w-full">
       <div className="w-full flex justify-center items-end">
@@ -44,14 +43,14 @@ const Hero = () => {
         </motion.p>
       </div>
       <div className="px-24 absolute w-full flex justify-between z-10">
-        <motion.div style={{ y: xl }}>
+        <motion.div style={{ y: lg }}>
           <Image
             className="w-[24rem] h-[18rem] object-cover mt-[-145px]"
             src={Women}
             alt="Women_photo"
           />
         </motion.div>
-        <motion.div style={{ y: xl }}>
+        <motion.div style={{ y: lg }}>
           <Image
             className="w-80 object-contain mt-[-80px]"
             src={Short}
