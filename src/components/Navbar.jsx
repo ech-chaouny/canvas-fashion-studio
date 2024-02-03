@@ -4,7 +4,7 @@ import { ArrowUp } from "@/assets";
 
 const Navbar = () => {
   return (
-    <header className="flex justify-between items-center w-full z-1 bg-secondary pt-10 pb-6 px-24">
+    <header className="flex justify-between items-center w-full absolute bg-secondary pt-10 pb-6 px-24">
       <div>
         <a
           href="#"

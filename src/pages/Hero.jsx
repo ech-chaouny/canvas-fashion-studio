@@ -17,9 +17,9 @@ const Hero = () => {
   const sm = useTransform(scrollYProgress, [0, 1], [0, -100]);
   const md = useTransform(scrollYProgress, [0, 1], [0, -150]);
   const lg = useTransform(scrollYProgress, [0, 1], [0, 150]);
- 
+
   return (
-    <div ref={container} className="h-full w-full">
+    <div ref={container} className="h-full w-full pt-[122px]">
       <div className="w-full flex justify-center items-end">
         <motion.div style={{ y: lg }}>
           <Image
