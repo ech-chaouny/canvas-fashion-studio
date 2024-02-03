@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <div className="bg-primary">
-      <div className="relative max-w-[82rem] pt-[124px] flex flex-col items-end">
+      <div className="relative px-52 pt-[124px] flex flex-col items-end">
         <h5 className="uppercase text-white text-[14px]">Our Story</h5>
         <p className="text-gradient mt-16 text-[49px] leading-[4.2rem] font-bold max-w-4xl text-end">
           Canvas Studio Was Born Out Of A Passion For Staying Ahead Of The
@@ -18,7 +18,7 @@ const About = () => {
           Contemporary Fashion.
         </p>
       </div>
-      <div className="max-w-[82rem] flex flex-row justify-end pt-32 pb-36 gap-48 h-auto ">
+      <div className="px-52 flex flex-row justify-end pt-32 pb-36 gap-48 h-auto ">
         <div className="text-end flex flex-col gap-2">
           <span className="text-white text-[14px] font-medium uppercase">
             Year
