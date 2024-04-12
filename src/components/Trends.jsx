@@ -6,7 +6,7 @@ const Trends = () => {
   return (
     <section className="pb-24">
       <div className="absolute">
-        <Image className="w-full h-full" src={trendsImg} alt="Trends" />
+        <Image className="w-auto h-auto" src={trendsImg} alt="Trends" />
       </div>
       <div className="relative flex flex-col justify-center items-center text-center pt-24">
         <h1 className="text-[52px] text-primary tracking-[-0.01em] font-extrabold">
